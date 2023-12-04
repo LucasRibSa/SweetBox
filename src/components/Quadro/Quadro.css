@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+.quadro {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-color: #B43E60;
+}
+
+.quadro-text {
+    display: flex;
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 2.4rem;
+    justify-content: center;
+    color: #fff;
+}
+
+.bolos {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.botao-imagem:hover {
+    transform: scale(1.3); 
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-imagem {
+    color: #fff;
+    margin-top: 10.8rem;
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.branco {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    animation: fadeInOut 2.0s ease-in-out; 
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}

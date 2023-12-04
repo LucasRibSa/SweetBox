@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #b7b7b7; 
+  height: 95px; 
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  padding: 15px;
+}
+
+.navbar-content ul li {
+  cursor: pointer;
+  transition: 1s;
+}
+.portfolio:hover, .produtos:hover, .contato:hover {
+  color: #B43E60;
+  font-size: 18px;
+}
+  
+.logo {
+  height: 70px;  
+  cursor: pointer;
+  transition: 1s;
+}
+ 
+.logo:hover {
+  height: 74px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+  
+.navbar li {
+  margin: 0 15px;
+}
+  
