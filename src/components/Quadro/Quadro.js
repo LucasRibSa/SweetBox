@@ -20,8 +20,8 @@ const totalImagens = imagens.length;
             setCurrentIndex((prevIndex) => (prevIndex + 1) % totalImagens);
             setTimeout(() => {
                 setShowWhiteOverlay(false);
-            }, 1000);
-        }, 1000); 
+            }, 950);
+        }, 950); 
     };
     const mostrarImagemAnterior = () => {
         setShowWhiteOverlay(true);
@@ -29,8 +29,8 @@ const totalImagens = imagens.length;
             setCurrentIndex((prevIndex) => (prevIndex - 1 + totalImagens) % totalImagens);
             setTimeout(() => {
                 setShowWhiteOverlay(false);
-            }, 1000);
-        }, 1000);
+            }, 950);
+        }, 950);
     };
     return (
         <div className="quadro">

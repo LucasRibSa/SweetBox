@@ -2,6 +2,7 @@
   background-color: #b7b7b7; 
   height: 95px; 
 }
+
 .navbar-content {
   display: flex;
   justify-content: space-between;
@@ -14,6 +15,7 @@
   cursor: pointer;
   transition: 1s;
 }
+
 .portfolio:hover, .produtos:hover, .contato:hover {
   color: #B43E60;
   font-size: 18px;
